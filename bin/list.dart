@@ -9,15 +9,18 @@ void main() {
   print(listString);
 
   names.add("Iqbal");
-  names.add("Yuni");
-  names.add("Faqih"); // untuk menambahkan
+  names.add("Cinta");
+  names.add("Yuni"); // untuk menambahkan
 
-  names[1] = "Hanafi";
+  listString.add("halooo");
 
-  print(names[0]);
+  names[2] = "Hanafi";
+
+  print(names);
   print(names.length); // untuk menghitung panjang
   names.removeAt(2); // untuk menghapus
   print(names);
   print(contoh);
   print(contoh2);
+  print(listString[0]);
 }
